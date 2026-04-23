@@ -1,0 +1,12 @@
+# Copyright 2026 Juan Pablo Tosso and the OWASP Coraza contributors
+# SPDX-License-Identifier: Apache-2.0
+openapi: 3.0.3
+info:
+  title: Minimal
+  version: 0.1.0
+paths:
+  /ping:
+    get:
+      operationId: ping
+      responses:
+        '200': { description: OK }

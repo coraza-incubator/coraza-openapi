@@ -1,0 +1,30 @@
+{
+  "name": "coraza-openapi",
+  "version": "0.1.0",
+  "description": "CLI that converts an OpenAPI specification into Coraza WAF rules, and serves the web UI locally.",
+  "license": "Apache-2.0",
+  "author": "Juan Pablo Tosso <pablo@owasp.org>",
+  "contributors": ["OWASP Coraza contributors"],
+  "homepage": "https://github.com/coraza-incubator/coraza-openapi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coraza-incubator/coraza-openapi.git",
+    "directory": "packages/cli"
+  },
+  "bugs": "https://github.com/coraza-incubator/coraza-openapi/issues",
+  "type": "module",
+  "bin": {
+    "coraza-openapi": "./dist/bin.js"
+  },
+  "files": ["dist", "README.md", "LICENSE", "NOTICE"],
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@coraza-openapi/core": "*",
+    "cac": "^6.7.14",
+    "cosmiconfig": "^9.0.0",
+    "picocolors": "^1.1.1"
+  }
+}

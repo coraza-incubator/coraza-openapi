@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { font-family: Inter, system-ui, sans-serif; }
+
+.scroll-shadow {
+  background:
+    linear-gradient(#09090b 30%, rgba(9,9,11,0)) center top,
+    linear-gradient(rgba(9,9,11,0), #09090b 70%) center bottom,
+    radial-gradient(farthest-side at 50% 0, rgba(0,0,0,0.4), rgba(0,0,0,0)) center top,
+    radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,0.4), rgba(0,0,0,0)) center bottom;
+  background-size: 100% 24px, 100% 24px, 100% 8px, 100% 8px;
+  background-repeat: no-repeat;
+  background-attachment: local, local, scroll, scroll;
+}

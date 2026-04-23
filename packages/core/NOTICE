@@ -1,0 +1,25 @@
+coraza-openapi
+Copyright 2026 Juan Pablo Tosso and the OWASP Coraza contributors.
+
+This product includes software developed as part of the
+OWASP Coraza project (https://coraza.io / https://owasp.org/www-project-coraza-web-application-firewall/).
+
+Author:  Juan Pablo Tosso <pablo@owasp.org>
+Project: OWASP Coraza Web Application Firewall
+License: Apache License, Version 2.0 (see LICENSE)
+
+Third-party notices
+-------------------
+
+This project depends on external software components that carry their
+own copyrights and licenses. See the respective package metadata in
+`node_modules/` (for JavaScript/TypeScript dependencies) and the Go
+module cache (for Go dependencies under `tests/coraza-e2e/`) for
+per-component license text.
+
+Notable upstream projects:
+  - OWASP Coraza             (Apache-2.0) — https://github.com/corazawaf/coraza
+  - OWASP Core Rule Set      (Apache-2.0) — https://github.com/coreruleset/coreruleset
+  - OpenAPI Specification    (Apache-2.0) — https://spec.openapis.org/
+  - Heroicons                (MIT)        — https://github.com/tailwindlabs/heroicons
+  - Monaco Editor            (MIT)        — https://github.com/microsoft/monaco-editor
